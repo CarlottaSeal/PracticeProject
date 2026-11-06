@@ -139,13 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DP\300LongestIncreasingSubsequence.cpp" />
-    <ClCompile Include="DP\322CoinChange.cpp" />
-    <ClCompile Include="LRU&amp;Cache\460LFUCache.cpp" />
-    <ClCompile Include="LRU&amp;Cache\146LRU.cpp" />
-    <ClCompile Include="LRU&amp;Cache\1146SnapshotArray.cpp" />
+    <ClCompile Include="DP\M300LIS.cpp" />
+    <ClCompile Include="DP\M322CoinChange.cpp" />
+    <ClCompile Include="LRU&amp;Cache\H460LFU.cpp" />
+    <ClCompile Include="LRU&amp;Cache\M146LRU.cpp" />
+    <ClCompile Include="LRU&amp;Cache\M1146SnapshotArray.cpp" />
     <ClCompile Include="Practice.cpp" />
-    <ClCompile Include="PriorityQ\1834SingleThreadedCPU.cpp">
+    <ClCompile Include="PriorityQ\M1834SingleThreadCPU.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -223,7 +223,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="PriorityQ\23MergeKSortedLists.cpp">
+    <ClCompile Include="PriorityQ\H23MergeKLists.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -301,7 +301,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="PriorityQ\253MeetingRoomsII.cpp">
+    <ClCompile Include="PriorityQ\M253MeetingRoomsII.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -379,7 +379,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="PriorityQ\621TaskScheduler.cpp">
+    <ClCompile Include="PriorityQ\M621TaskScheduler.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -457,7 +457,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="Stack\739单调栈.cpp">
+    <ClCompile Include="Stack\M739DailyTemps.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -536,31 +536,31 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="Traversal\&amp;BVH射线MinHit.cpp" />
-    <ClCompile Include="Traversal\144前序遍历二叉树.cpp" />
-    <ClCompile Include="Traversal\145后序遍历二叉树.cpp" />
-    <ClCompile Include="Traversal\938二叉搜索树的范围和.cpp" />
-    <ClCompile Include="Traversal\94中序遍历二叉树.cpp" />
-    <ClCompile Include="Traversal\994腐烂的橘子.cpp" />
-    <ClCompile Include="UnionFind\547NumOfProvinces.cpp" />
-    <ClCompile Include="UnionFind\684RedundantConnection.cpp" />
-    <ClCompile Include="回溯\37SudokuSolver.cpp" />
-    <ClCompile Include="回溯\39CombinationSum.cpp" />
-    <ClCompile Include="回溯\46Permutations.cpp" />
-    <ClCompile Include="回溯\51N皇后-难.cpp" />
-    <ClCompile Include="回溯\78Subsets.cpp" />
-    <ClCompile Include="回溯\79WordSearch.cpp" />
-    <ClCompile Include="Stack\155MinStack.cpp" />
-    <ClCompile Include="常规高频题\206ReverseLinkedList.cpp" />
-    <ClCompile Include="拓扑排序（依赖解析）\207CourseSchedule.cpp" />
-    <ClCompile Include="常规高频题\33SearchInRotatedSortedArray.cpp" />
-    <ClCompile Include="常规高频题\15ThreeSum.cpp" />
-    <ClCompile Include="常规高频题\49HashmapGroupAnagrams.cpp" />
-    <ClCompile Include="常规高频题\76MinimumWindowSubstring.cpp" />
-    <ClCompile Include="常规高频题\49GroupAnagrams.cpp" />
-    <ClCompile Include="Traversal\200NumOfIslands.cpp" />
-    <ClCompile Include="常规高频题\1TwoSum.cpp" />
-    <ClCompile Include="拓扑排序（依赖解析）\210CourseScheduleII.cpp" />
-    <ClCompile Include="树\341FlattenNestedListIterator.cpp">
+    <ClCompile Include="Traversal\E144Preorder.cpp" />
+    <ClCompile Include="Traversal\E145Postorder.cpp" />
+    <ClCompile Include="Traversal\E938RangeSumBST.cpp" />
+    <ClCompile Include="Traversal\E94Inorder.cpp" />
+    <ClCompile Include="Traversal\M994RottingOranges.cpp" />
+    <ClCompile Include="UnionFind\M547Provinces.cpp" />
+    <ClCompile Include="UnionFind\M684RedundantConn.cpp" />
+    <ClCompile Include="回溯\H37Sudoku.cpp" />
+    <ClCompile Include="回溯\M39CombSum.cpp" />
+    <ClCompile Include="回溯\M46Permutations.cpp" />
+    <ClCompile Include="回溯\H51NQueens.cpp" />
+    <ClCompile Include="回溯\M78Subsets.cpp" />
+    <ClCompile Include="回溯\M79WordSearch.cpp" />
+    <ClCompile Include="Stack\M155MinStack.cpp" />
+    <ClCompile Include="链表\E206ReverseList.cpp" />
+    <ClCompile Include="拓扑排序（依赖解析）\M207CourseSchedule.cpp" />
+    <ClCompile Include="数组\M33SearchRotated.cpp" />
+    <ClCompile Include="数组\M15ThreeSum.cpp" />
+    <ClCompile Include="哈希表\M49GroupAnagrams_2.cpp" />
+    <ClCompile Include="数组\H76MinWindow.cpp" />
+    <ClCompile Include="哈希表\M49GroupAnagrams_1.cpp" />
+    <ClCompile Include="Traversal\M200NumIslands.cpp" />
+    <ClCompile Include="哈希表\E1TwoSum.cpp" />
+    <ClCompile Include="拓扑排序（依赖解析）\M210CourseScheduleII.cpp" />
+    <ClCompile Include="树\M341FlattenNested.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -638,7 +638,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="树\428SerializeDeserializeNaryTree.cpp">
+    <ClCompile Include="树\H428SerializeNary.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -716,7 +716,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="树\429NaryTreeLevelOrder.cpp">
+    <ClCompile Include="树\M429NaryLevelOrder.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -794,7 +794,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="树\559MaxDepthNaryTree.cpp">
+    <ClCompile Include="树\E559NaryMaxDepth.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -879,18 +879,27 @@
     <ClCompile Include="矩阵&amp;缓存\Vector.cpp" />
     <ClCompile Include="矩阵&amp;缓存\基本位操作.cpp" />
     <ClCompile Include="矩阵&amp;缓存\字符串.cpp" />
-    <ClCompile Include="空间碰撞&amp;网格\149MaxPointsOnALine.cpp" />
-    <ClCompile Include="空间碰撞&amp;网格\289GameOfLife.cpp" />
-    <ClCompile Include="空间碰撞&amp;网格\874WalkingRobotSimulation.cpp" />
+    <ClCompile Include="空间碰撞&amp;网格\H149MaxPoints.cpp" />
+    <ClCompile Include="空间碰撞&amp;网格\M289GameOfLife.cpp" />
+    <ClCompile Include="空间碰撞&amp;网格\M874RobotSim.cpp" />
     <ClCompile Include="空间碰撞&amp;网格\&amp;DDA网格射线遍历.cpp" />
     <ClCompile Include="矩阵&amp;缓存\&amp;MatMul分块.cpp" />
-    <ClCompile Include="队列\E933NumOfRecentCalls.cpp" />
+    <ClCompile Include="队列\E933RecentCalls.cpp" />
     <ClCompile Include="Traversal\H127WordLadder.cpp" />
-    <ClCompile Include="Stack\H84LargestRectInHistogram.cpp" />
-    <ClCompile Include="Traversal\M543DiameterOfBiTree.cpp" />
-    <ClCompile Include="常规高频题\128LongestConsecutiveSeq.cpp" />
-    <ClCompile Include="Stack\84LargestRectInHistogram难.cpp" />
-    <ClCompile Include="空间碰撞&amp;网格\939MinAreaRectangle.cpp">
+    <ClCompile Include="Stack\H84LargestRect_2.cpp" />
+    <ClCompile Include="Traversal\E543TreeDiameter.cpp" />
+    <ClCompile Include="哈希表\M128LongestConsecSeq.cpp" />
+    <ClCompile Include="Stack\H84LargestRect_1.cpp" />
+    <ClCompile Include="数组\M34SearchRange.cpp" />
+    <ClCompile Include="数组\E252MeetingRooms.cpp" />
+    <ClCompile Include="PriorityQ\H502IPO.cpp" />
+    <ClCompile Include="StructureDesign\M380RandomizedSet.cpp" />
+    <ClCompile Include="StructureDesign\M707LinkedList.cpp" />
+    <ClCompile Include="Traversal\H124MaxPathSum.cpp" />
+    <ClCompile Include="UnionFind\M721AccountsMerge.cpp" />
+    <ClCompile Include="树\M208Trie.cpp" />
+    <ClCompile Include="树\M211WordDictionary.cpp" />
+    <ClCompile Include="空间碰撞&amp;网格\M939MinAreaRect.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>

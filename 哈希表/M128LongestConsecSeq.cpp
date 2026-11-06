@@ -10,6 +10,11 @@
 //怎么判断是不是起点？如果 num - 1 不在 set 里，说明它前面没有数了，它就是起点。
 //这样每段连续序列只会被数一次，总时间 O(n)。
 
+#include <algorithm>
+#include <unordered_set>
+#include <vector>
+using namespace std;
+
 int longestConsecutive(vector<int>& nums) {
     unordered_set<int> s(nums.begin(), nums.end());
     int longestStreak = 0;

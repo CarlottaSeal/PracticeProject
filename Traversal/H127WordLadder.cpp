@@ -3,13 +3,19 @@
 // 思路：经典 BFS 最短路。每个单词是一个节点，只差一个字母的两个单词之间连一条边，求从起点到终点的最短路。所以用 BFS
 // 关键优化是用通配符模式（h*t 匹配 hot/hit）建邻接关系，避免逐对比较。
 
+#include <queue>
+#include <string>
+#include <unordered_set>
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         unordered_set<string> wordSet(wordList.begin(), wordList.end());
         if(!wordSet.contains(endWord)) return 0;
 
-        queue<string> queue<int> q;
+        queue<string> q;
         q.push(beginWord);
         wordSet.erase(beginWord);
         int steps = 1;

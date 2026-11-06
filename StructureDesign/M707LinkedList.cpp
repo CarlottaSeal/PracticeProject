@@ -21,11 +21,16 @@ class MyLinkedList {
 
 public:
     MyLinkedList(): size(0){
-        Node* head = new Node(0);
-        Node* tail = new Node(0);
+        head = new Node(0);
+        tail = new Node(0);
         head->next = tail;
         tail->prev = head;
     } 
+
+    int get(int index){
+        if(index < 0 || index >= size) return -1;
+        return getNode(index)->val;
+    }
 
     void addAtHead(int val){
         addAfter(head, val);
@@ -50,7 +55,7 @@ public:
     }
 
     void deleteAtIndex(int index){
-        if(index < 0 || index > size){
+        if(index < 0 || index >= size){
             return;
         }
         Node* cur = getNode(index);

@@ -4,6 +4,11 @@
 //lc网站有图，可以手画一下stack里元素的变化过程->必须用while保证单调递增
 //我们处理的是i前面的那一根[否则无法找“右第一个更小”]->要遍历到n而非n-1
 
+#include <algorithm>
+#include <stack>
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
